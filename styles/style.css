@@ -77,6 +77,9 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header__theme-button {
@@ -110,7 +113,7 @@ a:focus-within {
   outline: none;
   outline-style: none;
   border-radius: 0;
-  border: 1px solid currentColor;
+  outline: 1px solid currentColor;
 }
 
 .header__theme-button:disabled {
